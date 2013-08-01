@@ -748,6 +748,7 @@ a:hover, a:focus {
 
   .hidden-print {
     display: none !important; } }
+	
 @media (max-width: 767px) {
   .container {
     padding-left: 20px;
