@@ -43,7 +43,7 @@ nav ul li {
   color: #ccc; }
   
 .bg-color {
-	background-color:#666;
+	background-color:#888;
 }
 
 
@@ -111,6 +111,9 @@ nav ul li {
 
 .padding-top {
   padding-top: 15px !important; }
+  
+.top-text {
+  padding-top: 45px !important; }
 
 .padding-bottom {
   padding-bottom: 20px !important; }
