@@ -15,10 +15,12 @@
   max-width: 1024px; }
 
 /* Your Custom CSS*/
+
 nav ul {
-  margin: 0;
-  text-align: center;
-  padding: 0; }
+  margin-top:45px;
+  width:750px;
+  margin-bottom:0px;
+  text-align: center; }
 
 nav ul li {
   margin: 0 auto;
@@ -34,9 +36,17 @@ nav ul li {
 
 .box3 {
   background-color: #8a8a8a; }
+  
+.box4 {
+	background-color:#FFF; }
 
 .gray {
   color: #ccc; }
+  
+.bg-color {
+	background-color:#666;
+}
+
 
 /** Responsive CSS **/
 @media (min-width: 1200px) {
@@ -69,6 +79,9 @@ nav ul li {
 
 .left {
   text-align: left; }
+  
+.height75 {
+	height:75px; }
 
 .height100 {
   height: 100px; }
@@ -86,11 +99,11 @@ nav ul li {
   height: 400px; }
 
 .margin-top {
-  margin-top: 20px; }
+  margin-top: 10px; }
 
 .margin-bottom {
   margin-bottom: 20px; }
-
+  
 .no-padding {
   padding: 0 !important; }
 
