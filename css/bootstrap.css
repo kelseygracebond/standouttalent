@@ -777,6 +777,12 @@ a:hover, a:focus {
     display: none !important; } }
 	
 @media (max-width: 767px) {
+	
+  .nav-gone {
+	height:0px;
+	padding:0px;
+	display:none; }
+		
   .float-right {
 	float:right; }
 	
@@ -785,10 +791,6 @@ a:hover, a:focus {
 	 
   .padding15 {
 	  padding-top:15px; } 
-	
-  .btn {
-    height:15px;
-    margin-left:-40px; }
 	
    nav ul {
 	background-color:#888;
@@ -878,10 +880,11 @@ a:hover, a:focus {
     top: 20px; } }
 @media (max-width: 480px) {
 	
-  .btn {
-  height:15px;
-  margin-left:-40px; }
-  
+  .nav-gone {
+	height:0px;
+	padding:0px;
+	display:none; }
+		
   .float-right {
 	  float:right; }
 	  
